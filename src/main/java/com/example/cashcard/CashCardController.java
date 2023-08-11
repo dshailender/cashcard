@@ -77,6 +77,6 @@ public class CashCardController {
             cashCardRepository.deleteById(id);
             return ResponseEntity.noContent().build();
         }
-        return ResponseEntity.notFound().build();ōl̥
+        return ResponseEntity.notFound().build();
     }
 }
